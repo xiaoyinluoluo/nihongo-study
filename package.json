@@ -1,0 +1,1 @@
+{"name":"japanese-ai-system","version":"0.2.0","private":true,"scripts":{"dev":"node server.mjs","check":"node --check practice.js && node --check app.js && node --check server.mjs"}}

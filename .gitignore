@@ -1,0 +1,44 @@
+# Environment variables and credentials
+.env
+.env.*
+*.pem
+*.key
+*.p12
+*.pfx
+credentials*
+secrets*
+.npmrc
+.netrc
+
+# Dependencies, build output and caches
+node_modules/
+dist/
+build/
+.next/
+out/
+coverage/
+.cache/
+.parcel-cache/
+.vite/
+.turbo/
+*.tsbuildinfo
+*.log
+
+# Local configuration, editor and OS files
+*.local
+*.local.*
+.vscode/
+.idea/
+.codex/
+.agents/
+.DS_Store
+Thumbs.db
+
+# Personal learning backups and local databases
+hiyori-backup-*.json
+backups/
+*.sqlite
+*.sqlite3
+*.db
+*.dump
+*.bak
